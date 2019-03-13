@@ -1,0 +1,13 @@
+﻿CentOS 7
+# yum install epel-release
+# yum update
+# shutdown -r now
+# yum install R -y
+$ wget https://download2.rstudio.org/rstudio-server-rhel-1.1.456-x86_64.rpm
+# yum install rstudio-server-rhel-1.1.456-x86_64.rpm
+# yum groupinstall "Development Tools" -y
+# systemctl status rstudio-server
+# systemctl start rstudio-server
+$ rstudio-server
+$ rstudio-server active-sessions
+http://localhost 또는 ip:8787/ -> R Web GUI

@@ -1,0 +1,6 @@
+#install.packages('RMySQL')
+library(RMySQL)
+mysqlconnection = dbConnect(MySQL(), dbname = 'employees', user = 'hadoop', password = 'Pa$$w0rd123',
+                            host = '192.168.137.100')
+dbListTables(mysqlconnection)
+result <- dbGetQuery(mysqlconnection, "SELECT * FROM employees")

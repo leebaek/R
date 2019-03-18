@@ -1,0 +1,14 @@
+20773A-LON-DC 2048
+20773A-LON-DEV 4096
+20773A-LON-RSVR 2048
+20773A-LON-SQLR 2048
+10249
+Pa55.wd
+
+
+172.16.0.1
+255.255.0.0
+
+command prompt (관리자로 수행)
+slmgr -rearm
+재부팅

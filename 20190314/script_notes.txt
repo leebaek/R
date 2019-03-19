@@ -1,0 +1,23 @@
+﻿XML 데이터 
+XSL 표현 
+HTML 데이터 + 표현
+SGML
+
+Extensible Data Format (XDF)
+
+can improve processing speed by reducing the volume of I/O
+being performed, it limits the size of datasets to the amount of available memory
+
+
+Sources => RDBMS, HDFS(.....), Storage Account, S3...(XDF......)
+
+Microsoft R Server (R)
+ -> Machine Learning Server - R, Python
+ => 병렬, 분산...
+ => Nodes....
+
+
+
+
+
+https://docs.microsoft.com/ko-kr/machine-learning-server/r/scaler-data-merge

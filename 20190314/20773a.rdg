@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RDCMan programVersion="2.7" schemaVersion="3">
+  <file>
+    <credentialsProfiles>
+      <credentialsProfile inherit="None">
+        <profileName scope="Local">adatum.com\administrator</profileName>
+        <userName>administrator</userName>
+        <password>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAu4LiINjjH0eZ8z6W3vpR0AAAAAACAAAAAAAQZgAAAAEAACAAAABqkigH9TsjBSeDQZ+0r0ygv6gT8kNOTNEIC4PI3H905gAAAAAOgAAAAAIAACAAAADuWF2ZVKtwDSkpXUSgnKmWimWWrnYOqoQnoMO1WVJfVyAAAACXo0KTorVKhyYpbeiW/CtjT4o+h93tVIWX7DZG5wBco0AAAABBVWAbpzWGKt8al0gejdO/s4LU5wn7kMx7BiZObYp6uFrZqDs6zBBNYqWBy4JUHFADfHMP5bNmEYBA52rKQDd5</password>
+        <domain>adatum.com</domain>
+      </credentialsProfile>
+      <credentialsProfile inherit="None">
+        <profileName scope="Local">adatum\administrator real</profileName>
+        <userName>administrator</userName>
+        <password>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAu4LiINjjH0eZ8z6W3vpR0AAAAAACAAAAAAAQZgAAAAEAACAAAAAE8aRUsfI4PcukR0fV1t5hcNoCIgFdMYq9Ba+BzaRZlwAAAAAOgAAAAAIAACAAAADY+htO9/gLkBC5OlClPZJMzT8xg3sUcMIlI7/Gi+3X/CAAAADSx32+6jAU1CUpPqdbjYMJtrfv/vilZo31Zxk8tua5dkAAAABHRVaXSdMhRSMArZjKq9S7iNCDhTEbl1AIKx2eHWu1GVlUQ4OSurdfhhbBDPdBtzdDlxdctj9LqwZwJNjGJr6G</password>
+        <domain>adatum</domain>
+      </credentialsProfile>
+    </credentialsProfiles>
+    <properties>
+      <expanded>True</expanded>
+      <name>20773a</name>
+    </properties>
+    <server>
+      <properties>
+        <displayName>20773A-LON-DC</displayName>
+        <name>172.16.0.10</name>
+      </properties>
+      <logonCredentials inherit="None">
+        <profileName scope="Local">Custom</profileName>
+        <userName>administrator</userName>
+        <password>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAu4LiINjjH0eZ8z6W3vpR0AAAAAACAAAAAAAQZgAAAAEAACAAAABirqQGmifjqEppvhLDUIpCMpi8jNKEDcpkHQAV+h3uqgAAAAAOgAAAAAIAACAAAABcqZpF30ePUrg5nbj+sdZNLCAgs7qvi4fog2PQIJjjBSAAAABX6wpwdmO299bqHzlvPS6cw579viknZdn8fcU4tBrBtUAAAACKIhr2HkbPuHyAR8gqEhs/gMqVSHjOMcfZnxTVqUby2ix3YKqNqc1AcdvEtfhncsT7a6xFYOhLM5eDLe4u6tcS</password>
+        <domain>adatum</domain>
+      </logonCredentials>
+    </server>
+    <server>
+      <properties>
+        <displayName>20773A-LON-DEV</displayName>
+        <name>172.16.0.4</name>
+      </properties>
+      <logonCredentials inherit="None">
+        <profileName scope="Local">Custom</profileName>
+        <userName>adatumadmin</userName>
+        <password>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAu4LiINjjH0eZ8z6W3vpR0AAAAAACAAAAAAAQZgAAAAEAACAAAADwTOfMH+OODHcleEKVR4LY48CnG47iLsFNApTaJuWVBgAAAAAOgAAAAAIAACAAAABhAdI7QcyMZrXfOLrS1vb+SZKnq9dhn48w2Pss3v7gCyAAAAAp1Dnr7Wha8t2KCOpCbD2CUS/cBrhSrfcobGxJ0AfPEEAAAABYKsRjaYJ5l3kQjQ0kTCsv0SAzIrOoI/S0e5CPc2PDuqMtAms09yPsCcX8WSgEJrmD+W+oJcWa2ABGtxgPmkhQ</password>
+        <domain>adatum</domain>
+      </logonCredentials>
+    </server>
+    <server>
+      <properties>
+        <displayName>20773A-LON-RSVR</displayName>
+        <name>172.16.0.3</name>
+      </properties>
+      <logonCredentials inherit="None">
+        <profileName scope="File">adatum\administrator real</profileName>
+      </logonCredentials>
+    </server>
+    <server>
+      <properties>
+        <displayName>20773A-LON-SQLR</displayName>
+        <name>172.16.0.2</name>
+      </properties>
+      <logonCredentials inherit="None">
+        <profileName scope="Local">Custom</profileName>
+        <userName>administrator</userName>
+        <password>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAu4LiINjjH0eZ8z6W3vpR0AAAAAACAAAAAAAQZgAAAAEAACAAAACNvrMtXfaWWTKmuZ7zrtqbQJ3XnjyyQq4w02U3A9siAAAAAAAOgAAAAAIAACAAAAC28wzVl1ieSFYKZCrq1+efnsetYmDczrT5jIUOI71fvSAAAACijaR6g3lmzNS4S8rQVQZi8R2ELO4XxoyczACSsyHjukAAAACHlGaJTRqTYSrJTtqFmasFig8g1/T8fasQ25q4AaRW2U8kJwko2zNEp5JldpBbnDbwoxA6ZCYbRbme9hrBGp4P</password>
+        <domain>adatum</domain>
+      </logonCredentials>
+    </server>
+  </file>
+  <connected />
+  <favorites />
+  <recentlyUsed />
+</RDCMan>

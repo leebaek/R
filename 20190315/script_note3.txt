@@ -1,0 +1,28 @@
+# RevolutionR
+# https://packages.revolutionanalytics.com/datasets/
+
+getwd()
+rxGetOption("sampleDataDir")
+myPath <- file.path(rxGetOption("sampleDataDir"), 
+          "AirlineDemoSmall.csv")
+df <- rxImport(inData = myPath)
+dim(df)
+myWorkingPath <- file.path(getwd(), "AirlineSmall.xdf")
+df <- rxImport(inData = myPath, 
+               outFile = myWorkingPath)
+
+rxGetInfo(df, getVarInfo = TRUE)
+rxGetVarInfo(df)
+
+df2 <- rxImport(inData = myPath, 
+               outFile = myWorkingPath,
+               stringsAsFactors = TRUE, 
+               overwrite = TRUE)
+rxGetVarInfo(df2)
+
+
+df3 <- rxImport(inData = myPath, 
+                outFile = myWorkingPath,
+                stringsAsFactors = FALSE, 
+                overwrite = TRUE)
+rxGetVarInfo(df3)

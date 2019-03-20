@@ -1,0 +1,11 @@
+sampleDataDir <- rxGetOption("sampleDataDir")
+sampleDataDir
+list.files(sampleDataDir)
+census <- file.path(sampleDataDir, "CensusWorkers.xdf")
+census_info <- rxGetVarInfo(census)
+names(census_info)
+census_info$age
+census_info$sex
+census_info$age$low <- 30
+
+rxSummary(~F(age), data = census)

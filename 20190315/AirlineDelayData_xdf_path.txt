@@ -1,0 +1,3 @@
+AirlineDelayData.xdf
+=> https://packages.revolutionanalytics.com/datasets/AirlineData87to08.zip
+=> file.path(sampleDataDir, "AirlineDemoSmall.xdf")
